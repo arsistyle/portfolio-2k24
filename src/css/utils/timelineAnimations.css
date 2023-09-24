@@ -1,0 +1,26 @@
+.avatar {
+  animation-name: translateY-100;
+  animation-duration: 1ms;
+  animation-direction: alternate;
+  animation-timeline: --mainTimeline;
+}
+
+@keyframes translateY-100 {
+  to {
+    transform: translateY(-100px);
+  }
+}
+
+
+.hero-info {
+  animation-name: translateY100;
+  animation-duration: 1ms;
+  animation-direction: alternate;
+  animation-timeline: --mainTimeline;
+}
+
+@keyframes translateY100 {
+  to {
+    transform: translateY(100px);
+  }
+}

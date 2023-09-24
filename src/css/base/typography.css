@@ -1,0 +1,6 @@
+.h1 {
+  @apply font-black text-6xl text-dark;
+  &.heading {
+    @apply font-black text-8xl xl:text-9xl;
+  }
+}

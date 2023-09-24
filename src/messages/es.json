@@ -1,0 +1,20 @@
+{
+  "Nav": {
+    "home": "Inicio",
+    "projects": "Proyectos"
+  },
+  "Home": {
+    "title": "Israel Larrondo | Portafolio",
+    "description": "Hola, Soy Israel y este es mi Portafolio.",
+    "Hero": {
+      "greeting": "Hola, soy",
+      "name": "Israel Larrondo",
+      "job": "Diseñador Front-End"
+    }
+  },
+  "Projects": {
+    "Title": {
+      "title": "Israel Larrondo | Proyectos"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.btn {
+  &.btn-primary {
+    @apply bg-primary-400 text-dark border-primary-400;
+    &:hover {
+      @apply bg-primary-500 text-dark border-primary-500;
+    }
+    @media (prefers-color-scheme: dark) {
+      @apply bg-primary-300 border-primary-300;
+      &:hover {
+        @apply bg-primary-400 border-primary-400;
+      }
+    }
+  }
+  &.btn-secondary {
+    @apply bg-secondary-400 text-dark border-secondary-400;
+    &:hover {
+      @apply bg-secondary-500 text-dark border-secondary-500;
+    }
+    @media (prefers-color-scheme: dark) {
+      @apply bg-secondary-300 border-secondary-300;
+      &:hover {
+        @apply bg-secondary-400 border-secondary-400;
+      }
+    }
+  }
+}
