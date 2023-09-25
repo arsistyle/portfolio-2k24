@@ -1,10 +1,8 @@
-'use client';
 
-import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
-export default function Hero() {
-  const t = useTranslations('Home');
+export default function Hero({t}: {t: any}) {
+  
 
   return (
     <section className='flex items-center justify-center px-5 py-40'>

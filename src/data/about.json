@@ -1,0 +1,32 @@
+{
+  "experience": {
+    "en": [
+      {
+        "text": "I am currently a Front-End Developer at Boosmap, working with Next, React and MUI."
+      },
+      {
+        "text": "For almost 2 years I was Technical Lead and Front-End Developer at Latadigital (Latagroup)."
+      },
+      {
+        "text": "From HTML and CSS Layout Designer to Front-End Developer over a course of almost 5 years at Feline Interactive."
+      },
+      {
+        "text": "Freelance Front-End Designer for +7 years, formerly Graphic Designer."
+      }
+    ],
+    "es": [
+      {
+        "text": "Actualmente soy Desarrollador Front-End en Boosmap, trabajo con Next, React y MUI."
+      },
+      {
+        "text": "Durante casi 2 años fui Líder Técnico y Desarrollador Front-End en Latadigital (Latagroup)."
+      },
+      {
+        "text": "De Maquetador en HTML y CSS a Desarrollador Front-End en un transcurso de casi 5 años en Feline Interactive."
+      },
+      {
+        "text": "Diseñador Front-End freelance desde hace +7 años, anteriormente Diseñador gráfico."
+      }
+    ]
+  }
+}

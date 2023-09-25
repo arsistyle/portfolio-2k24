@@ -1,1 +1,5 @@
-@import './timelineAnimations.css'
+@import './timelineAnimations.css';
+
+.text-balance {
+  text-wrap: balance;
+}

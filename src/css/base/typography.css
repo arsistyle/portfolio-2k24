@@ -1,6 +1,25 @@
 .h1 {
-  @apply font-black text-6xl text-dark;
+  @apply font-bold text-7xl xl:text-8xl text-dark;
   &.heading {
     @apply font-black text-8xl xl:text-9xl;
+  }
+}
+
+.h2 {
+  @apply font-bold text-5xl xl:text-6xl text-dark;
+}
+
+.h3 {
+  @apply font-bold text-4xl xl:text-5xl text-dark;
+}
+
+.h4 {
+  @apply font-bold text-3xl xl:text-4xl text-dark;
+}
+
+.p {
+  @apply text-dark;
+  &.highlight {
+    @apply text-xl;
   }
 }
