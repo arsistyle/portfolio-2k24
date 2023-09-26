@@ -1,15 +1,17 @@
+import { NextIntlClientProvider } from 'next-intl';
+
 import '../globals.css';
 import { Syne } from 'next/font/google';
 
-import { NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { Background } from '@/components/elements';
+import { LOCALES } from '@/constants';
 
 const syne = Syne({ subsets: ['latin'] });
 
-export function generateStaticParams() {
-  return [{ locale: 'en' }, { locale: 'es' }];
-}
+// export function generateStaticParams() {
+//   return [{ locale: 'en' }, { locale: 'es' }];
+// }
 
 export default async function LocaleLayout({
   children,
@@ -18,9 +20,12 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  const isValidLocale = LOCALES.some((cur) => cur === locale);
+  if (!isValidLocale) notFound();
+
   let messages;
   try {
-    messages = (await import(`../../messages/${locale}.json`)).default;
+    messages = (await import(`@/messages/${locale}.json`)).default;
   } catch (error) {
     notFound();
   }

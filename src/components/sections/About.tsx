@@ -1,12 +1,5 @@
-import aboutInfo from '@/data/about.json';
+import { Icon } from '../elements/Icon';
 
-type ExperienceType = {
-  [key: string]: { text: string }[];
-};
-
-type AboutInfoType = {
-  experience: ExperienceType;
-};
 export default function About({ t, locale }: { t: any; locale: string }) {
   const aboutInfo: AboutInfoType = require('@/data/about.json');
   const { experience = { en: [], es: [] } } = aboutInfo;
@@ -20,8 +13,17 @@ export default function About({ t, locale }: { t: any; locale: string }) {
         </h3>
         <div className='grid grid-cols-2 gap-20'>
           {experienceData.map(({ text }) => (
-            <div className='flex gap-4 col-span-2 md:col-span-1' key={text}>
-              <div className='w-12 text-primary-400 dark:text-primary-300'>_/</div>
+            <div className='grid grid-flow-col gap-4 col-span-2 md:col-span-1' key={text}>
+              <div className='w-12 h-12 text-primary-400 dark:text-primary-300'>
+                <Icon
+                  name='check'
+                  stroke='currentColor'
+                  fill='none'
+                  strokeWidth='1.5'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                />
+              </div>
               <p className='p highlight text-dark dark:text-white'>{text}</p>
             </div>
           ))}
@@ -30,3 +32,11 @@ export default function About({ t, locale }: { t: any; locale: string }) {
     </section>
   );
 }
+
+type ExperienceType = {
+  [key: string]: { text: string }[];
+};
+
+type AboutInfoType = {
+  experience: ExperienceType;
+};

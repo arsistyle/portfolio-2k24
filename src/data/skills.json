@@ -1,0 +1,58 @@
+[
+  {
+    "id": 0,
+    "name": "react",
+    "label": "React",
+    "stroke": "currentColor",
+    "fill": "none"
+  },
+  {
+    "id": 1,
+    "name": "next",
+    "label": "Next Js",
+    "stroke": "currentColor",
+    "fill": "none"
+  },
+  {
+    "id":2,
+    "name": "astro",
+    "label": "Astro",
+    "stroke": "none",
+    "fill": "currentColor"
+  },
+  {
+    "id": 3,
+    "name": "tailwind",
+    "label": "Tailwind",
+    "stroke": "none",
+    "fill": "currentColor"
+  },
+  {
+    "id": 4,
+    "name": "github",
+    "label": "Github",
+    "stroke": "none",
+    "fill": "currentColor"
+  },
+  {
+    "id": 5,
+    "name": "vercel",
+    "label": "Vercel",
+    "stroke": "none",
+    "fill": "currentColor"
+  },
+  {
+    "id": 6,
+    "name": "illustrator",
+    "label": "Illustrator",
+    "stroke": "none",
+    "fill": "currentColor"
+  },
+  {
+    "id": 7,
+    "name": "photoshop",
+    "label": "Photoshop",
+    "stroke": "none",
+    "fill": "currentColor"
+  }
+]

@@ -118,7 +118,7 @@ const config: Config = {
           // primary: '#3efa93',
           // secondary: '#9747ff',
           // accent: '#faaa25',
-          // neutral: '#2a323c',
+          neutral: '#2a323c',
           // 'base-100': '#17191B',
           // info: '#3abff8',
           // success: '#36d399',
