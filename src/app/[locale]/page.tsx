@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 
-import { SectionAbout, SectionHero, SectionSkills } from '@/components/sections';
+import { SectionAbout, SectionHero, SectionProjects, SectionSkills } from '@/components/sections';
 import { Header } from '@/components/shared';
 
 export default function Home({ params }: { params: { locale: string } }) {
@@ -14,6 +14,7 @@ export default function Home({ params }: { params: { locale: string } }) {
       <SectionHero t={t} />
       <SectionAbout t={t} locale={locale} />
       <SectionSkills t={t} />
+      <SectionProjects t={t} locale={locale} />
     </main>
   );
 }

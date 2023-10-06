@@ -1,0 +1,142 @@
+{
+  "en": [
+    {
+      "id": 1,
+      "slug": "online-store-photographic-equipment",
+      "title": "Online Store for Photographic Equipment",
+      "category": "photography",
+      "image": "/assets/img/projects/online-store-photographic-equipment.jpg",
+      "urls": [
+        {
+          "url": "https://github.com/yourusername/online-store-photographic-equipment",
+          "type": "code"
+        },
+        {
+          "url": "https://www.example.com/online-store-photographic-equipment",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "portfolio-website",
+      "title": "Portfolio Website",
+      "category": "web-development",
+      "image": "/assets/img/projects/portfolio-website.jpg",
+      "urls": [
+        {
+          "url": "https://github.com/yourusername/portfolio-website",
+          "type": "code"
+        },
+        {
+          "url": "https://www.example.com/portfolio-website",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "blog-website",
+      "title": "Blog Website",
+      "category": "web-development",
+      "image": "/assets/img/projects/blog-website.jpg",
+      "urls": [
+        {
+          "url": "https://github.com/yourusername/blog-website",
+          "type": "code"
+        },
+        {
+          "url": "https://www.example.com/blog-website",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "e-commerce-app",
+      "title": "E-commerce App",
+      "category": "mobile-development",
+      "image": "/assets/img/projects/e-commerce-app.jpg",
+      "urls": [
+        {
+          "url": "https://github.com/yourusername/e-commerce-app",
+          "type": "code"
+        },
+        {
+          "url": "https://www.example.com/e-commerce-app",
+          "type": "website"
+        }
+      ]
+    }
+  ],
+  "es": [
+    {
+      "id": 1,
+      "slug": "online-store-photographic-equipment",
+      "title": "Tienda en Línea para Artículos Fotográficos",
+      "category": "photography",
+      "image": "/assets/img/projects/online-store-photographic-equipment.jpg",
+      "urls": [
+        {
+          "url": "https://github.com/yourusername/online-store-photographic-equipment",
+          "type": "code"
+        },
+        {
+          "url": "https://www.example.com/online-store-photographic-equipment",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "portfolio-website",
+      "title": "Sitio Web de Portfolio para Fotografo Carlitos Lechuga",
+      "category": "web-development",
+      "image": "/assets/img/projects/portfolio-website.jpg",
+      "urls": [
+        {
+          "url": "https://github.com/yourusername/portfolio-website",
+          "type": "code"
+        },
+        {
+          "url": "https://www.example.com/portfolio-website",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "blog-website",
+      "title": "Blog de noticias relacionadas al mundo Tech",
+      "category": "web-development",
+      "image": "/assets/img/projects/blog-website.jpg",
+      "urls": [
+        {
+          "url": "https://github.com/yourusername/blog-website",
+          "type": "code"
+        },
+        {
+          "url": "https://www.example.com/blog-website",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "e-commerce-app",
+      "title": "E-commerce App para tienda de artículos para mascotas",
+      "category": "mobile-development",
+      "image": "/assets/img/projects/e-commerce-app.jpg",
+      "urls": [
+        {
+          "url": "https://github.com/yourusername/e-commerce-app",
+          "type": "code"
+        },
+        {
+          "url": "https://www.example.com/e-commerce-app",
+          "type": "website"
+        }
+      ]
+    }
+  ]
+}

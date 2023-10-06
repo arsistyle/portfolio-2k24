@@ -13,11 +13,27 @@
     },
     "About": {
       "title": "+7 years of experience as Front-End Designer"
+    },
+    "Projects": {
+      "Card": {
+        "buttons": {
+          "code": "Code",
+          "website": "Demo",
+          "detail": "Detail"
+        }
+      }
     }
   },
   "Projects": {
     "Title": {
       "title": "Israel Larrondo | Projects"
+    },
+    "Card": {
+      "buttons": {
+        "code": "Code",
+        "website": "Demo",
+        "detail": "Detail"
+      }
     }
   }
 }

@@ -12,3 +12,20 @@ export type IconProps = SVGProps<SVGSVGElement> & {
 // Skills section
 
 export type SkillsType = { name: IconName; label: string; id: Key; fill?: string; stroke?: string };
+
+// Projects
+
+export type ProjectUrlType = 'code' | 'website' | 'detail';
+
+export type ProjectCardType = {
+  id?: Key;
+  slug: string;
+  title: string;
+  category: string;
+  image: string;
+  urls: {
+    url: string;
+    type: ProjectUrlType;
+  }[];
+  t?: any;
+};

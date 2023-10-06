@@ -5,6 +5,14 @@ const withNextIntl = require('next-intl/plugin')(
   './i18n.ts'
 );
 
-const nextConfig = withNextIntl({});
+const nextConfig = withNextIntl({
+  images: {
+    remotePatterns: [
+      {
+        hostname: 'picsum.photos',
+      },
+    ],
+  },
+});
 
-module.exports = nextConfig
+module.exports = nextConfig;
