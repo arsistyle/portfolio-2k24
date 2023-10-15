@@ -46,3 +46,7 @@ export type getProjectsListProps = {
 export type getHomeProps = {
   language?: languages;
 };
+
+export type getFooterProps = {
+  language?: languages;
+};

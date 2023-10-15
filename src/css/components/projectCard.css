@@ -1,20 +1,20 @@
 .projectCard {
-  @apply relative rounded-main overflow-hidden;
+  @apply relative rounded-t-3xl md:rounded-main overflow-hidden col-span-2 sm:col-span-1;
   .projectCard__image {
     @apply block w-full aspect-square transition duration-500;
   }
   .projectCard__info {
-    @apply transition duration-500 absolute left-0 right-0 -bottom-9 p-9 pb-20 rounded-3xl flex flex-col gap-3 bg-dark/60 -translate-y-8 backdrop-blur-md opacity-0;
+    @apply transition duration-500 md:absolute left-0 right-0 -bottom-9 p-6 md:p-9 md:pb-20 rounded-3xl flex flex-col gap-3 bg-dark/60 -translate-y-8 backdrop-blur-md md:opacity-0;
   }
   .projectCard__actions {
     @apply flex gap-3 justify-end;
   }
   &:hover {
     .projectCard__image {
-      @apply scale-110;
+      @apply md:scale-110;
     }
     .projectCard__info {
-      @apply translate-y-0 opacity-100;
+      @apply md:translate-y-0 md:opacity-100;
     }
   }
 }
