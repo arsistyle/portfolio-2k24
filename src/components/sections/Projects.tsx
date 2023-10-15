@@ -1,25 +1,27 @@
 import React from 'react';
 import { ProjectCard } from '../elements';
-import { ProjectCardType } from '@/types';
+import { ProjectCardType, languages } from '@/types';
+import { getProjectsList } from '../../../services';
 
-export default function Projects({ t, locale }: { t: any; locale: string }) {
-  const projectsList = require('@/data/projects.json');
-  const projects = projectsList[locale] || [];
+export default async function Projects({ locale }: { locale: languages }) {
+  const projects = await getProjectsList({
+    language: locale,
+    limit: 4,
+  });
 
   return (
     <section className='flex items-center justify-center px-5 py-40'>
       <div className='container'>
         <div className='grid grid-cols-2 gap-12'>
-          {projects.map(({ id, title, slug, category, image, urls }: ProjectCardType) => {
+          {projects.map(({ _id, title, slug, category, image, links }: ProjectCardType) => {
             return (
               <ProjectCard
-                key={id}
+                key={_id}
                 title={title}
                 category={category}
                 image={image}
-                urls={urls}
+                links={links}
                 slug={slug}
-                t={t}
               />
             );
           })}

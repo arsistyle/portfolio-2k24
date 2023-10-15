@@ -1,6 +1,7 @@
-import { ProjectCardType, ProjectUrlType } from '@/types';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
+import { ProjectCardType, ProjectUrlType } from '@/types';
 import { Icon } from '../Icon';
 
 const buttonsTypes = {
@@ -38,7 +39,8 @@ const generateButton = (url: string, type: ProjectUrlType, t: any) => {
   return buttonsTypes[type](url, label) || null;
 };
 
-const ProjectCard = ({ id, title, category, image, urls, slug, t }: ProjectCardType) => {
+const ProjectCard = ({ title, category, image, links, slug}: ProjectCardType) => {
+  const t = useTranslations();
   return (
     <article className='projectCard'>
       <Image
@@ -52,7 +54,7 @@ const ProjectCard = ({ id, title, category, image, urls, slug, t }: ProjectCardT
         <h4 className='h6'>{category}</h4>
         <h3 className='h4 text-dark dark:text-white mb-4'>{title}</h3>
         <div className='projectCard__actions'>
-          {urls?.map(({ url, type }) => generateButton(url, type, t))}
+          {links?.map(({ url, type }) => generateButton(url, type, t))}
         </div>
       </div>
     </article>

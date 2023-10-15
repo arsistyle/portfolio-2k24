@@ -2,9 +2,12 @@ import { Icon } from '../elements/Icon';
 import SkillsBadge from '../elements/SkillsBadge';
 import { SkillsSlider } from '../elements';
 import { SkillsType } from '@/types';
+import { useTranslations } from 'next-intl';
 
-export default function Skills({ t }: { t: any }) {
-  const skillsInfo: SkillsType[] = require('@/data/skills.json');
+import SKILLS from '@/data/skills.json';
+
+export default function Skills({ data }: { data: any }) {
+  const skillsData = data.map((name: string) => SKILLS.find((skill) => skill.name === name));
 
   return (
     <section className='bg-secondary-300 h-40 flex justify-center'>
@@ -13,7 +16,7 @@ export default function Skills({ t }: { t: any }) {
           <SkillsBadge />
         </div>
         <div className='flex justify-center w-full pl-20 lg:pl-44'>
-          <SkillsSlider skills={skillsInfo} />
+          <SkillsSlider skills={skillsData} />
         </div>
       </div>
     </section>

@@ -6,11 +6,6 @@
   "Home": {
     "title": "Israel Larrondo | Portfolio",
     "description": "Hi, im Israel and this is my Portfolio.",
-    "Hero": {
-      "greeting": "Hi, im",
-      "name": "Israel Larrondo",
-      "job": "Front-End Designer"
-    },
     "About": {
       "title": "+7 years of experience as Front-End Designer"
     },
