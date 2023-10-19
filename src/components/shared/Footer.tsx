@@ -11,7 +11,7 @@ export default async function Footer({ locale }: { locale: languages }) {
 
   return (
     <footer>
-      <div className='bg-primary-300 rounded-t-main py-14 px-14'>
+      <div className='bg-primary-400 dark:bg-primary-300 rounded-t-main py-14 px-14'>
         <div className='container mx-auto'>
           <div className='grid md:grid-cols-12 gap-6'>
             <div className='md:col-span-8'>

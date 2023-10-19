@@ -18,7 +18,7 @@ export default function Hero({ data }: { data: HeroType }) {
             <div className='hero-info relative z-10 col-span-2 sm:col-span-8'>
               <h1 className='mb-2'>
                 {greeting && (
-                  <div className='inline-flex p-2 mb-2 text-[clamp(1.6rem,5vw,3.75rem)] leading-[1em] font-bold bg-secondary-400 dark:bg-secondary-300 text-dark'>
+                  <div className='inline-flex p-2 mb-2 text-[clamp(1.6rem,5vw,3.75rem)] leading-[1em] font-bold bg-secondary-400 dark:bg-secondary-300 text-white dark:text-dark'>
                     {greeting}
                   </div>
                 )}
