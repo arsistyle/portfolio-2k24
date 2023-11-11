@@ -11,7 +11,7 @@ export type IconProps = SVGProps<SVGSVGElement> & {
 
 // Skills section
 
-export type SkillsType = { 
+export type StackType = { 
   name: IconName;
   label: string;
   id: Key;

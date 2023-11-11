@@ -4,9 +4,9 @@ import Marquee from 'react-fast-marquee';
 
 import { Icon } from '@/components/elements/Icon';
 
-import { SkillsType } from '@/types';
+import { StackType } from '@/types';
 
-export default function SkillsSlider({ skills }: { skills: SkillsType[] }) {
+export default function StackSlider({ skills }: { skills: StackType[] }) {
   return (
     <Marquee className='w-full' gradient gradientColor='#af73fe' autoFill gradientWidth={60}>
       {skills.map(({ name, label, id, fill = '', stroke = '' }) => (

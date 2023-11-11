@@ -1,4 +1,4 @@
-import { SectionAbout, SectionHero, SectionProjects, SectionSkills } from '@/components/sections';
+import { SectionAbout, SectionHero, SectionProjects, SectionStack } from '@/components/sections';
 import { Footer, Header } from '@/components/shared';
 import { languages } from '@/types';
 import { getHome } from '@/services/getHome';
@@ -14,7 +14,7 @@ export default async function Home({ params }: { params: { locale: languages } }
       <Header locale={locale} />
       <SectionHero data={hero} />
       <SectionAbout data={about} />
-      <SectionSkills data={skills} />
+      <SectionStack data={skills} />
       <SectionProjects locale={locale} />
       <Footer locale={locale} />
     </main>
